@@ -151,6 +151,19 @@
     padding-bottom: 120px;
 }
 
+/* --------------- Book Us ------------ */
+
+.bookus-text-bg {
+    background-color: #660066;
+    color: #fff;
+}
+
+.bookus-box {
+    padding-top: 55px;
+    padding-bottom: 120px;
+}
+
+
 
 /* --------------- Footer Social ------------ */
 
