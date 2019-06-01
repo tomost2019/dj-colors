@@ -124,7 +124,7 @@
 
 .music-box {
     padding-top: 55px;
-    padding-bottom: 150
+    padding-bottom: 0;
 }
 
 .music-align {
@@ -148,7 +148,7 @@
 
 .ourstory-box {
     padding-top: 55px;
-    padding-bottom: 120px;
+    padding-bottom: 50px;
 }
 
 /* --------------- Book Us ------------ */
@@ -160,7 +160,7 @@
 
 .bookus-box {
     padding-top: 55px;
-    padding-bottom: 120px;
+    padding-bottom: 100px;
 }
 
 
