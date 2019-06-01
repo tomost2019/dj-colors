@@ -28,7 +28,7 @@
 
 
 
-@media (max-width: 767px) {
+@media (max-width: 1024px) {
     .header-container-bg {
         background-attachment: scroll;
     }
@@ -91,6 +91,7 @@
 
 .link-text {
     font-weight: bold;
+    transition: 0.8 ease-in-out;
 }
 
 .navbar-icons-spacing {
