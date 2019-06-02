@@ -33,10 +33,10 @@
                     <a class="nav-link link-text" href="#aboutus"><i class="fas fa-history navbar-icons-spacing"></i>About Us</a>
                 </li>
                 <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
-                    <a class="nav-link link-text" href="#bookus"><i class="fas fa-calendar-week navbar-icons-spacing"></i>Book Us</a>
+                    <a class="nav-link link-text" href="" data-toggle="modal" data-target="#tourbookmodal"><i class="fas fa-globe navbar-icons-spacing"></i>Global Tour</a>
                 </li>
                 <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
-                    <a class="nav-link link-text" href="#"><i class="fas fa-envelope-open-text navbar-icons-spacing"></i>Contact</a>
+                    <a class="nav-link link-text" href="" data-toggle="modal" data-target="#tourbookmodal"><i class="fas fa-calendar-week navbar-icons-spacing"></i>Book Us</a>
                 </li>
             </ul>
         </div>
@@ -138,23 +138,24 @@
 
     <section id="aboutus" class="aboutus-text-bg">
         <div class="container aboutus-box">
-            <div class="row">
+            <div class="row justify-content-center">
                 <div class="col-12 text-center">
                     <h1>About Us</h1>
-                    <p>Feel free to connect with us on our social media</p>
+                    <p>Check us out on our social media</p>
                     <hr>
                 </div>
-                <div class="col-12 text-center">
+                <div class="col-11 text-center">
                     <span>It was just a couple of friends that had a passion for music. We did not know anything about how to produce awesome music. All we had was the old garage and some old equipment. The rest is history. We owe our epic journey to all our fans!</span>
                 </div>
-                <div id="carouselExampleIndicators" class="carousel slide carousel-align" data-ride="carousel">
+                <div class="col-12">
+                <div id="carouselcontrols" class="carousel slide carousel-align" data-ride="carousel">
                     <ol class="carousel-indicators">
-                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-                        <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
-                        <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+                        <li data-target="#carouselcontrols" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselcontrols" data-slide-to="1"></li>
+                        <li data-target="#carouselcontrols" data-slide-to="2"></li>
+                        <li data-target="#carouselcontrols" data-slide-to="3"></li>
+                        <li data-target="#carouselcontrols" data-slide-to="4"></li>
+                        <li data-target="#carouselcontrols" data-slide-to="5"></li>
                     </ol>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
@@ -176,59 +177,20 @@
                             <img class="d-block w-100 carousel-border" src="assets/images/dj6.jpg" alt="Sixth slide">
                         </div>
                     </div>
-                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <a class="carousel-control-prev" href="#carouselcontrols" role="button" data-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="sr-only">Previous</span>
                     </a>
-                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <a class="carousel-control-next" href="#carouselcontrols" role="button" data-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="sr-only">Next</span>
                     </a>
                 </div>
+              </div>
             </div>
         </div>
     </section>
-
-    <!-- Book Us 
-
-    <section id="bookus" class="bookus-text-bg">
-        <div class="container bookus-box">
-            <div class="row">
-                <div class="col-12 text-center">
-                    <h1>Book Us</h1>
-                    <p>Please fill out the form below if you wish to send us a booking</p>
-                    <hr>
-                </div>
-            </div>
-            <form action="" method="post">
-                <div class="form-row">
-                    <div class="form-group col-md-4">
-                        <label for="firstname">Name</label>
-                        <input type="text" class="form-control" id="firstname" name="firstname" required>
-                    </div>
-                    <div class="form-group col-md-4">
-                        <label for="email">Email</label>
-                        <input type="email" class="form-control" id="email" name="email" required>
-                    </div>
-                    <div class="form-group col-md-4">
-                        <label for="date">Event date</label>
-                        <input type="date" class="form-control" id="date" name="date">
-                    </div>
-                </div>
-                <div class="form-row">
-                    <div class="form-group col-md-12">
-                        <label for="request">Comments</label>
-                        <textarea class="form-control" rows="4" id="request" name="request" required></textarea>
-                    </div>
-                </div>
-                <div class="row justify-content-center">
-                    <button type="submit" class="btn btn-primary">Submit</button>
-                </div>
-        </div>
-        </form>
-        </div>
-    </section>
-    -->
+    
     <!-- Footer Social -->
 
     <footer class="container-fluid footer-bg fixed-bottom">
@@ -242,7 +204,62 @@
             </div>
         </div>
     </footer>
-    </div>
+    
+    <!-- Global Toor and Book Us Modal -->
+    
+    <div class="modal fade" id="tourbookmodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/TTpiKfljRzY" allowfullscreen></iframe>
+                </div>
+                
+                <div class="modal-body globaltour-text-bg" style="height: 300px;">
+                <div class="col-12">
+                    <h5 class="modal-title" id="globaltour">Global Tour</h5>
+                    <hr>
+                </div>
+                <div class="container .globaltour-box">
+                    
+                </div>
+                </div>
+
+            
+                <div class="modal-body bookus-text-bg">
+                <div class="col-12">
+                    <h5 class="modal-title" id="bookus">Book Us</h5>
+                    <hr>
+                </div>
+                    <div class="container bookus-box">
+                        <form action="" method="post">
+                            <div class="form-row">
+                                <div class="form-group col-md-4">
+                                    <label for="firstname">Name</label>
+                                    <input type="text" class="form-control" id="firstname" name="firstname" required>
+                                </div>
+                                <div class="form-group col-md-4">
+                                    <label for="email">Email</label>
+                                    <input type="email" class="form-control" id="email" name="email" required>
+                                </div>
+                                <div class="form-group col-md-4">
+                                    <label for="date">Event date</label>
+                                    <input type="date" class="form-control" id="date" name="date">
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-md-12">
+                                    <label for="request">Comments</label>
+                                    <textarea class="form-control" rows="4" id="request" name="request" required></textarea>
+                                </div>
+                            </div>
+                            <div class="row justify-content-center"><button type="submit" class="btn btn-primary">Submit</button></div>
+                       </form>
+                   </div>
+              </div>
+        </div>
+    
+  
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.js" integrity="sha256-BTlTdQO9/fascB1drekrDVkaKd9PkwBymMlHOiG+qLI=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
