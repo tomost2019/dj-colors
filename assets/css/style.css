@@ -140,17 +140,29 @@
 }
 
 
-/* --------------- Our Story ------------ */
+/* --------------- About Us ------------ */
 
-.ourstory-text-bg {
+.aboutus-text-bg {
     background-color: #262626;
     color: #fff;
 }
 
-.ourstory-box {
+.aboutus-box {
     padding-top: 55px;
-    padding-bottom: 50px;
+    padding-bottom: 70px;
 }
+
+.carousel-align {
+    margin-top: 40px;
+}
+
+@media (min-width: 768px) {
+    .carousel-border {
+        border-radius: 15px;
+    }
+}
+
+
 
 /* --------------- Book Us ------------ */
 
