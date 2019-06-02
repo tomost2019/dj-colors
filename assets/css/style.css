@@ -153,13 +153,25 @@
 }
 
 .carousel-align {
-    margin-top: 40px;
+    margin-top: 30px;
 }
 
-@media (min-width: 768px) {
-    .carousel-border {
-        border-radius: 15px;
-    }
+
+.carousel-border {
+    border-radius: 15px;
+}
+
+
+/* --------------- Global Tour ------------ */
+
+.globaltour-text-bg {
+    background-color: #fff;
+    color: #000;
+}
+
+.globaltour-box {
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
 
 
@@ -167,13 +179,13 @@
 /* --------------- Book Us ------------ */
 
 .bookus-text-bg {
-    background-color: #660066;
-    color: #fff;
+    background-color: #fff;
+    color: #000;
 }
 
 .bookus-box {
-    padding-top: 55px;
-    padding-bottom: 100px;
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
 
 
