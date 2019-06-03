@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.3.0/css/flag-icon.css" type="text/css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <title>DJ Colors</title>
@@ -34,9 +35,6 @@
                 </li>
                 <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
                     <a class="nav-link link-text" href="" data-toggle="modal" data-target="#tourbookmodal"><i class="fas fa-globe navbar-icons-spacing"></i>Global Tour</a>
-                </li>
-                <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
-                    <a class="nav-link link-text" href="" data-toggle="modal" data-target="#tourbookmodal"><i class="fas fa-calendar-week navbar-icons-spacing"></i>Book Us</a>
                 </li>
             </ul>
         </div>
@@ -79,7 +77,6 @@
                          </audio>
                     </div>
                 </div>
-
                 <div class="col-12 col-md-6 col-lg-4 d-none d-sm-block">
                     <div class="music-align">
                         <img src="https://media.giphy.com/media/UwUjpGKts0ULu/giphy.gif" alt="Dj Picture" class="rounded-circle mr-3" height=120 width=120>
@@ -144,11 +141,11 @@
                     <p>Check us out on our social media</p>
                     <hr>
                 </div>
-                <div class="col-11 text-center">
+                <div class="col-10 text-center">
                     <span>It was just a couple of friends that had a passion for music. We did not know anything about how to produce awesome music. All we had was the old garage and some old equipment. The rest is history. We owe our epic journey to all our fans!</span>
                 </div>
-                <div class="col-12">
-                <div id="carouselcontrols" class="carousel slide carousel-align" data-ride="carousel">
+                <div class="col-10">
+                <div id="carouselcontrols" class="carousel slide carousel-align carousel-fade" data-ride="carousel">
                     <ol class="carousel-indicators">
                         <li data-target="#carouselcontrols" data-slide-to="0" class="active"></li>
                         <li data-target="#carouselcontrols" data-slide-to="1"></li>
@@ -205,29 +202,46 @@
         </div>
     </footer>
     
-    <!-- Global Toor and Book Us Modal -->
+    <!-- Global Tour and Book Us Modal -->
     
-    <div class="modal fade" id="tourbookmodal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg" role="document">
+    <div class="modal fade" id="tourbookmodal" tabindex="-1" role="dialog" aria-labelledby="tourbooklabel" aria-hidden="true">
+        <div class="modal-dialog modal-md" role="document">
             <div class="modal-content">
+                
+                <!-- iFrame Youtube-->
                 
                 <div class="embed-responsive embed-responsive-16by9">
                     <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/TTpiKfljRzY" allowfullscreen></iframe>
                 </div>
                 
-                <div class="modal-body globaltour-text-bg" style="height: 300px;">
+                <!-- Global Tour -->
+                
+                <div class="modal-body globaltour-text-bg">
                 <div class="col-12">
                     <h5 class="modal-title" id="globaltour">Global Tour</h5>
                     <hr>
                 </div>
-                <div class="container .globaltour-box">
-                    
+                <div class="container globaltour-box">
+                    <div class="row">
+                        <div class="col-6 country-box"><span class="flag-spacing flag-icon flag-icon-se"></span>Stockholm<p>2019-06-20</p></div>
+                        <div class="col-6 country-box"><span class="flag-spacing flag-icon flag-icon-gb"></span>London<p>2019-07-15</p></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6 country-box"><span class="flag-spacing flag-icon flag-icon-ca"></span>Toronto<p>2019-08-10</p></div>
+                        <div class="col-6 country-box"><span class="flag-spacing flag-icon flag-icon-us"></span>New York<p>2019-09-25</p></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6 country-box"><span class="flag-spacing flag-icon flag-icon-th"></span>Bangkok<p>2019-11-16</p></div>
+                        <div class="col-6 country-box"><span class="flag-spacing flag-icon flag-icon-jp"></span>Tokyo<p>2019-12-10</p></div>
+                    </div>
                 </div>
                 </div>
+                
+                <!-- Book Us -->
 
             
                 <div class="modal-body bookus-text-bg">
-                <div class="col-12">
+                <div class="col-12 bookus-spacing">
                     <h5 class="modal-title" id="bookus">Book Us</h5>
                     <hr>
                 </div>
@@ -255,6 +269,7 @@
                             </div>
                             <div class="row justify-content-center"><button type="submit" class="btn btn-primary">Submit</button></div>
                        </form>
+                       
                    </div>
               </div>
         </div>
