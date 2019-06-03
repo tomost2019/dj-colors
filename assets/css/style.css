@@ -7,7 +7,7 @@
 
 .header-container-bg {
     height: 100vh;
-    background: url('../images/bg.jpeg') no-repeat center center fixed;
+    background: url('../images/bg.jpg') no-repeat center center fixed;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -91,7 +91,6 @@
 
 .link-text {
     font-weight: bold;
-    transition: 0.8 ease-in-out;
 }
 
 .navbar-icons-spacing {
@@ -122,6 +121,8 @@
     color: white;
 
 }
+
+
 
 .music-box {
     padding-top: 55px;
