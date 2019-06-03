@@ -165,10 +165,13 @@
 /* --------------- Global Tour ------------ */
 
 .globaltour-text-bg {
-    background-color: #fff;
-    color: #000;
+    background-color: #e600ac;
+    color: #fff;
 }
 
+.globaltour-box {
+    height: 70px;
+}
 
 .flag-spacing {
     margin-right: 5px;
@@ -178,13 +181,11 @@
 /* --------------- Book Us ------------ */
 
 .bookus-text-bg {
-    background-color: #fff;
-    color: #000
+    background-color: #000;
+    color: #fff;
 }
 
-.bookus-spacing {
-    margin-top: -25px;
-}
+
 
 
 
