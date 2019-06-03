@@ -34,7 +34,10 @@
                     <a class="nav-link link-text" href="#aboutus"><i class="fas fa-history navbar-icons-spacing"></i>About Us</a>
                 </li>
                 <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
-                    <a class="nav-link link-text" href="" data-toggle="modal" data-target="#tourbookmodal"><i class="fas fa-globe navbar-icons-spacing"></i>Global Tour</a>
+                    <a class="nav-link link-text" href="" data-toggle="modal" data-target="#globaltourmodal"><i class="fas fa-globe navbar-icons-spacing"></i>Global Tour</a>
+                </li>
+                <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+                    <a class="nav-link link-text" href="" data-toggle="modal" data-target="#bookusmodal"><i class="fas fa-calendar navbar-icons-spacing"></i>Book Us</a>
                 </li>
             </ul>
         </div>
@@ -69,7 +72,7 @@
                 </div>
                 <div class="col-12 col-md-6 col-lg-4">
                     <div class="music-align">
-                        <img src="https://media.giphy.com/media/B1wdtex5hR3kk/giphy.gif" alt="Dj Picture" class="rounded-circle mr-3" height=120 width=120>
+                        <img src="https://media.giphy.com/media/RTbFHLqbE9cNq/giphy.gif" alt="Dj Picture" class="rounded-circle mr-3" height=120 width=120>
                         <div class="col-"></div>
                         <audio controls class="audio-control-space">
                             <source src="/assets/audio/audio1.mp3">
@@ -204,7 +207,7 @@
     
     <!-- Global Tour and Book Us Modal -->
     
-    <div class="modal fade" id="tourbookmodal" tabindex="-1" role="dialog" aria-labelledby="tourbooklabel" aria-hidden="true">
+    <div class="modal fade" id="globaltourmodal" tabindex="-1" role="dialog" aria-labelledby="globaltourlabel" aria-hidden="true">
         <div class="modal-dialog modal-md" role="document">
             <div class="modal-content">
                 
@@ -213,6 +216,7 @@
                 <div class="embed-responsive embed-responsive-16by9">
                     <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/TTpiKfljRzY" allowfullscreen></iframe>
                 </div>
+     
                 
                 <!-- Global Tour -->
                 
@@ -221,31 +225,52 @@
                     <h5 class="modal-title" id="globaltour">Global Tour</h5>
                     <hr>
                 </div>
-                <div class="container globaltour-box">
+                <div class="container globaltour-text-bg">
                     <div class="row">
-                        <div class="col-6 country-box"><span class="flag-spacing flag-icon flag-icon-se"></span>Stockholm<p>2019-06-20</p></div>
-                        <div class="col-6 country-box"><span class="flag-spacing flag-icon flag-icon-gb"></span>London<p>2019-07-15</p></div>
+                        <div class="col-6 country-box globaltour-box"><span class="flag-spacing flag-icon flag-icon-us"></span>New York<p>2019-06-20</p></div>
+                        <div class="col-6 country-box globaltour-box"><span class="flag-spacing flag-icon flag-icon-ca"></span>Toronto<p>2019-07-15</p></div>
                     </div>
                     <div class="row">
-                        <div class="col-6 country-box"><span class="flag-spacing flag-icon flag-icon-ca"></span>Toronto<p>2019-08-10</p></div>
-                        <div class="col-6 country-box"><span class="flag-spacing flag-icon flag-icon-us"></span>New York<p>2019-09-25</p></div>
+                        <div class="col-6 country-box globaltour-box"><span class="flag-spacing flag-icon flag-icon-fr"></span>Paris<p>2019-08-10</p></div>
+                        <div class="col-6 country-box globaltour-box"><span class="flag-spacing flag-icon flag-icon-de"></span>Berlin<p>2019-09-25</p></div>
                     </div>
                     <div class="row">
-                        <div class="col-6 country-box"><span class="flag-spacing flag-icon flag-icon-th"></span>Bangkok<p>2019-11-16</p></div>
-                        <div class="col-6 country-box"><span class="flag-spacing flag-icon flag-icon-jp"></span>Tokyo<p>2019-12-10</p></div>
+                        <div class="col-6 country-box globaltour-box"><span class="flag-spacing flag-icon flag-icon-se"></span>Stockholm<p>2019-10-16</p></div>
+                        <div class="col-6 country-box globaltour-box"><span class="flag-spacing flag-icon flag-icon-gb"></span>London<p>2019-11-10</p></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6 country-box globaltour-box"><span class="flag-spacing flag-icon flag-icon-cn"></span>Shanghai<p>2019-12-16</p></div>
+                        <div class="col-6 country-box globaltour-box"><span class="flag-spacing flag-icon flag-icon-jp"></span>Tokyo<p>2020-12-31</p></div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6 country-box globaltour-box"><span class="flag-spacing flag-icon flag-icon-th"></span>Bangkok<p>2020-02-05</p></div>
+                        <div class="col-6 country-box globaltour-box"><span class="flag-spacing flag-icon flag-icon-kr"></span>Seoul<p>2020-03-20</p></div>
                     </div>
                 </div>
                 </div>
+            </div>
+        </div>
+    </div>
+        
                 
-                <!-- Book Us -->
-
-            
+                
+    <!-- Book Us -->
+                
+                
+    <div class="modal fade" id="bookusmodal" tabindex="-1" role="dialog" aria-labelledby="bookuslabel" aria-hidden="true">
+        <div class="modal-dialog modal-md" role="document">
+            <div class="modal-content">
+                
+                <img class="d-none d-sm-block" src="https://media.giphy.com/media/B1wdtex5hR3kk/giphy.gif">
+                
                 <div class="modal-body bookus-text-bg">
                 <div class="col-12 bookus-spacing">
                     <h5 class="modal-title" id="bookus">Book Us</h5>
+                    <br>
+                    <p>Do you need an awesome DJ for your Event?</p>
                     <hr>
                 </div>
-                    <div class="container bookus-box">
+                    <div class="container">
                         <form action="" method="post">
                             <div class="form-row">
                                 <div class="form-group col-md-4">
@@ -274,7 +299,6 @@
               </div>
         </div>
     
-  
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.js" integrity="sha256-BTlTdQO9/fascB1drekrDVkaKd9PkwBymMlHOiG+qLI=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
