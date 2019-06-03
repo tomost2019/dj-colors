@@ -165,16 +165,25 @@
 /* --------------- Global Tour ------------ */
 
 .globaltour-text-bg {
-    background-color: #e600ac;
+    background-color: #b30059;
     color: #fff;
 }
 
 .globaltour-box {
-    height: 70px;
+    height: 80px;
 }
 
 .flag-spacing {
     margin-right: 5px;
+}
+
+.closetour-space-color {
+    font-size: 25px;
+    color: #fff;
+}
+
+.closetour-space-color:hover {
+    color: #000;
 }
 
 
@@ -185,6 +194,14 @@
     color: #fff;
 }
 
+.closebook-space-color {
+    font-size: 25px;
+    color: #fff;
+}
+
+.closebook-space-color:hover {
+    color: #ff0000;
+}
 
 
 
