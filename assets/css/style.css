@@ -6,6 +6,10 @@ body {
     position: relative;
 }
 
+a {
+   outline: 0;
+}
+
 /* Scrolling only for mobile devices */
 
 @media (min-width: 1025px) {
