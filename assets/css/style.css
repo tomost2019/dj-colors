@@ -131,7 +131,7 @@ body {
 .tourbookmodal {
     font-weight: bold;
     display: block;
-    padding: .5rem .4rem;
+    padding: .5rem;
     color: #fff;
     -webkit-transition: 0.5s;
     -o-transition: 0.5s;
@@ -144,6 +144,12 @@ body {
     -webkit-transition: 0.5s;
     -o-transition: 0.5s;
     transition: 0.5s;
+}
+
+@media (max-width: 767px) {
+    .tourbookmodal {
+    padding: .5rem .10rem;
+    }
 }
 
 .navbar-icons-spacing {
