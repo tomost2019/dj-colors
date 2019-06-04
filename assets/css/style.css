@@ -2,6 +2,18 @@
 
 @import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700');
 
+body {
+    position: relative;
+}
+
+/* Scrolling only for mobile devices */
+
+@media (min-width: 1025px) {
+    body {
+        overflow-y: hidden;
+    }
+}
+
 
 /* Header */
 
@@ -89,8 +101,49 @@
 
 }
 
+
+.navbar-nav .nav-item .nav-link {
+    color: #fff;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.navbar-nav .nav-item.active .nav-link,
+.navbar-nav .nav-item:hover .nav-link {
+    color: #FF007F;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+
+}
+
+.nav-link.active {
+    color: #FF007F !important;
+}
+
+
+
 .link-text {
     font-weight: bold;
+}
+
+.tourbookmodal {
+    font-weight: bold;
+    display: block;
+    padding: .5rem .4rem;
+    color: #fff;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.tourbookmodal:hover {
+    color: #FF007F;
+    text-decoration: none;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
 }
 
 .navbar-icons-spacing {
@@ -182,11 +235,18 @@
     font-size: 25px;
     color: #fff;
     margin-left: 20px;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
 }
 
 .closetour-space-color:hover {
     color: #000;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
 }
+
 
 
 /* --------------- Book Us ------------ */
@@ -199,11 +259,17 @@
 .closebook-space-color {
     font-size: 25px;
     color: #fff;
-    
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+
 }
 
 .closebook-space-color:hover {
     color: #ff0000;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
 }
 
 
@@ -214,11 +280,13 @@
 .footer-bg {
     background-color: #000;
     opacity: 0.8;
+
 }
 
 .icons-social {
     color: #fff;
     font-size: 35px;
+
 }
 
 .icons-social:hover {
