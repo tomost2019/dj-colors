@@ -5,7 +5,9 @@
 body {
     position: relative;
     
-    /* Single page without scroll 
+    /* Single page without scroll */
+    
+    /*
     
     overflow-y: hidden;
     
@@ -17,17 +19,21 @@ a {
 }
 
 
-/* Fix for landing page bg-image to "jump" but side effects are: icons on the footer moves and scroll is enabled on website behind modal
+/* Fix for landing page bg-image to "jump" but side effects are: icons on the footer moves and scroll is enabled on website behind modal */
+
+/*
 
 .modal-open {
   overflow-y: auto;
   padding-right:0px !important;
 }
 
-
 */
 
-/* Scrolling only for mobile devices when single page without scroll enabled
+
+/* Scrolling only for mobile devices when single page without scroll enabled */
+
+/*
 
 @media (min-width: 1025px) {
     body {
