@@ -128,7 +128,11 @@ Others that are interested in this project can make a copy of their own by downl
 ## Credits
 **Research:**
 
-[Github](https://www.github.com) [Stackoverflow](https://stackoverflow.com) [CSS-Tricks](https://www.css-tricks.com) [Bootstrap](https://www.getbootstrap.com) [W3](https://www.w3schools.com/)
+[Github](https://www.github.com)
+[Stackoverflow](https://stackoverflow.com)
+[CSS-Tricks](https://www.css-tricks.com)
+[Bootstrap](https://www.getbootstrap.com)
+[W3](https://www.w3schools.com/)
 
 **Other:**
 
@@ -139,10 +143,19 @@ All content on this website is written by me.
 
 ### Media
 
-[Music](https://www.bensound.com/) [Images](https://unsplash.com/ https://stock.adobe.com/ie/) [Gifs](https://giphy.com/)
+[Music](https://www.bensound.com/)
+[Images](https://unsplash.com/)
+[Background](https://stock.adobe.com/ie/)
+[Gifs](https://giphy.com/)
+
 ### Acknowledgements
 
-[Animate CSS](https://daneden.github.io/animate.css/) [Smooth-scroll](https://github.com/cferdinandi/smooth-scroll) [Fontawesome](https://www.fontawesome.com) [Flag-icons](https://cdnjs.com/libraries/flag-icon-css) [Favicon](https://gauger.io/fonticon/) [Fonts](https://fonts.google.com/)
+[Animate CSS](https://daneden.github.io/animate.css/) 
+[Smooth-scroll](https://github.com/cferdinandi/smooth-scroll) 
+[Fontawesome](https://www.fontawesome.com) 
+[Flag-icons](https://cdnjs.com/libraries/flag-icon-css) 
+[Favicon](https://gauger.io/fonticon/) 
+[Fonts](https://fonts.google.com/)
 
 ## Remarks
 This is my first milestone project and the group DJ Colors is not real. The stories and all the content, music and images has no connections. The project is a part of my portfolio. 
