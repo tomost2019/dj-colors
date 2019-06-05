@@ -52,7 +52,10 @@ I did some extensive testing of the website several times. I used Chrome Debugge
 
 In Chrome Debugger I used the responsive method to resize the window to see how everything looked. I also used it for checking how it would look on different mobile devices.
 
-Automated: Validated the HTML code at https://validator.w3.org/ and the CSS at https://autoprefixer.github.io/. 
+<b>Automated</b>
+
+HTML: https://validator.w3.org/<br>
+CSS: https://autoprefixer.github.io/ and https://jigsaw.w3.org/css-validator/
 
 <b>Manual Testing:</b>
 
@@ -86,6 +89,8 @@ Automated: Validated the HTML code at https://validator.w3.org/ and the CSS at h
 
 ### Known Bugs
 When clicking on "Global Tour and Book Us" while the user is on the Landing Page the background image seems to be moving when the modal is being activated. This is because the background image is fixed and that there is no scroll in modal mode. 
+
+This bug happens in Chrome and Firefox. 
 
 <b>Possible solutions:</b>
 * Change the background-attachment to scroll. Side effects: The visual effects of the overall design on the website is affected. 
