@@ -84,7 +84,7 @@ Automated: Validated the HTML code at https://validator.w3.org/ and the CSS at h
 </li>
 </ol>
 
-## Performance
+### Performance
 I optimized the images on the website for best performance. I measured the performance using the Chrome Debugger with network and the performance tab.
 
 ### Known Bugs
