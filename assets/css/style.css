@@ -180,7 +180,7 @@ a {
 
 @media (max-width: 767px) {
     .tourbookmodal {
-        padding: .5rem .10rem;
+        padding: .5rem 0rem;
     }
 }
 
