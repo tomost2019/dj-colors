@@ -7,12 +7,15 @@ With that in mind, I decided to go with a responsive modern mobile-first approac
 * [Mobile First Approach](https://tomost2019.github.io/dj-colors/assets/wireframes/mobilefirst.png)
 * [Desktop](https://tomost2019.github.io/dj-colors/assets/wireframes/desktop.png)
 
-
+** Who is it for? **
+Anyone that has a passion for music. Does not matter if they know DJ Colors or not. The website is built to accomodate hardcore and new fans! With easy modern single page design. Responsive mobile first approach. 
 
 
 ### User Stories
 
-
+1. As a fan of Dj Colors I want useful information such as Global Tours. I also want to interact with DJ Colors.
+2. As a new fan of the music I want to interact with Dj Colors. Listen to music and connect on social media. 
+3. As a possibly customer I want to know how I can book DJ Colors for my own event.
 
 ## Technologies Used
 * HTML - Skeleton of the website.
@@ -128,7 +131,9 @@ I deployed this project by using Github Pages:
 
 *You can also fork the project to get a copy to your Github account. Deploy Github pages as above*
 
-[Run Locally](https://help.github.com/en/articles/cloning-a-repository)
+** Run Locally **
+
+[Cloning a repository](https://help.github.com/en/articles/cloning-a-repository)
 
 
 ## Credits
