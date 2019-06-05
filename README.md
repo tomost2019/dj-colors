@@ -4,8 +4,8 @@ This website is for a well known DJ Group called Colors. They wanted a website t
 With that in mind, I decided to go with a responsive modern mobile-first approach, single page design. With a well-combined colour theme that reflected their image.
 
 ### Wireframes
-*[Mobile First Approach](https://tomost2019.github.io/dj-colors/assets/wireframes/mobilefirst.png)
-*[Desktop](https://tomost2019.github.io/dj-colors/assets/wireframes/desktop.png)
+* [Mobile First Approach](https://tomost2019.github.io/dj-colors/assets/wireframes/mobilefirst.png)
+* [Desktop](https://tomost2019.github.io/dj-colors/assets/wireframes/desktop.png)
 
 
 
@@ -15,10 +15,13 @@ With that in mind, I decided to go with a responsive modern mobile-first approac
 
 
 ## Technologies Used
-* HTML
-* CSS
-* Javascript 
-* Bootstrap 4
+* HTML - Skeleton of the website
+* CSS - Custom styling
+* Javascript - Smooth-scroll and scrollspy.
+* Bootstrap 4 Framework - Layout and responsiveness.
+* Git - Version Control
+* Github - Deployment
+* C9 - Online IDE
 
 ### Features
 
