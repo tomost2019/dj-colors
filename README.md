@@ -107,7 +107,7 @@ When clicking on "Global Tour and Book Us" while the user is on the Landing Page
 Read more: https://stackoverflow.com/questions/32675849/screen-zooms-in-when-a-bootstrap-modal-is-opened-on-ios-9-safari
 
 ## Deployment
-Deployed this project by:
+<b>Deployed this project by:</b>
 <ol>
 <li>Create a GIT folder in C9 Online IDE by typing "Git init"</li>
 <li>Created the first version by adding files to "Git add"</li>
@@ -121,7 +121,7 @@ Others that are interested in this project can make a copy of their own by downl
 
 
 ## Credits
-Research:
+<b>Research:</b>
 
 https://www.github.com<br>
 https://stackoverflow.com<br>
