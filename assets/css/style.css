@@ -1,17 +1,7 @@
 /* Global */
 
-@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700');
-
 body {
     position: relative;
-    
-    /* Single page without scroll */
-    
-    /*
-    
-    overflow-y: hidden;
-    
-    */
 }
 
 a {
@@ -19,33 +9,7 @@ a {
 }
 
 
-/* Fix for landing page bg-image to "jump" but side effects are: icons on the footer moves and scroll is enabled on website behind modal */
-
-/*
-
-.modal-open {
-  overflow-y: auto;
-  padding-right:0px !important;
-}
-
-*/
-
-
-/* Scrolling only for mobile devices when single page without scroll enabled */
-
-/*
-
-@media (min-width: 1025px) {
-    body {
-        overflow-y: hidden;
-    }
-}
-
-
-*/
-
-
-/* Header */
+/* Header - Landing Page */
 
 .header-container-bg {
     height: 100vh;
@@ -67,15 +31,6 @@ a {
     -o-background-size: cover;
 
 }
-
-/* Media query for Mobile devices - Targeting iOS Devices */
-
-@media (max-width: 1024px) {
-    .header-container-bg {
-        background-attachment: scroll;
-    }
-}
-
 
 
 .header-container-overlay {
@@ -99,27 +54,6 @@ a {
 
 .header-arrow {
     color: #ff0066;
-}
-
-
-/* Media queries for header text */
-
-@media (max-width: 767px) {
-    .header-slogan-text {
-        font-size: 30px;
-    }
-}
-
-@media (max-width: 767px) {
-    .header-arrow {
-        font-size: 60px;
-    }
-}
-
-@media (min-width: 768px) {
-    .header-arrow {
-        font-size: 100px;
-    }
 }
 
 
@@ -176,13 +110,6 @@ a {
     transition: 0.5s;
 }
 
-/* Alignment for Global Tour and Book Us on the hamburger */
-
-@media (max-width: 767px) {
-    .tourbookmodal {
-        padding: .5rem 0rem;
-    }
-}
 
 .navbar-icons-spacing {
     padding-right: 5px;
@@ -203,7 +130,7 @@ a {
 }
 
 
-/* Content */
+/* --------------- Content ------------ */
 
 /* --------------- Music ------------ */
 
@@ -241,6 +168,11 @@ a {
     text-align: center;
     padding-bottom: 100px;
 
+}
+
+.music-align > img {
+    width: 150px;
+    height: 150px;
 }
 
 
@@ -304,7 +236,6 @@ a {
 }
 
 
-
 /* --------------- Book Us ------------ */
 
 .bookus-text-bg {
@@ -329,8 +260,6 @@ a {
 }
 
 
-
-
 /* --------------- Footer Social ------------ */
 
 .footer-bg {
@@ -352,3 +281,44 @@ a {
 .icons-spacing {
     padding-right: 10px;
 }
+
+
+/* --------------- Media querys ------------ */
+
+
+/* Media query for Mobile devices - Targeting iOS Devices */
+
+@media (max-width: 1024px) {
+    .header-container-bg {
+        background-attachment: scroll;
+    }
+}
+
+/* Media queries for header text on mobile devices */
+
+@media (max-width: 767px) {
+    .header-slogan-text {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 767px) {
+    .header-arrow {
+        font-size: 60px;
+    }
+}
+
+@media (min-width: 768px) {
+    .header-arrow {
+        font-size: 100px;
+    }
+}
+
+/* Alignment for Global Tour and Book Us on the hamburger */
+
+@media (max-width: 767px) {
+    .tourbookmodal {
+        padding: .5rem 0rem;
+    }
+}
+
