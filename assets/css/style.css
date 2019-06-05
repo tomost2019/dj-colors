@@ -68,7 +68,7 @@ a {
 
 }
 
-/* Media query for Mobile devices */
+/* Media query for Mobile devices - Targeting iOS Devices */
 
 @media (max-width: 1024px) {
     .header-container-bg {
@@ -183,11 +183,11 @@ a {
 }
 
 .navbar-icons-spacing {
-    margin-right: 5px;
+    padding-right: 5px;
 }
 
 .navbar-logo-spacing {
-    margin-left: 10px;
+    padding-left: 10px;
 
 }
 
@@ -213,13 +213,21 @@ a {
 
 .visitspotify {
     color: #fff;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
     transition: .3s;
 }
 
 .visitspotify:hover {
     color: #000;
     text-decoration: none;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
     transition: .3s;
+}
+
+.visitspotify:active {
+    color: #fff;
 }
 
 .music-box {
@@ -229,13 +237,14 @@ a {
 
 .music-align {
     text-align: center;
-    margin-bottom: 100px;
+    padding-bottom: 100px;
 
 }
 
 
 .audio-control-space {
-    margin-top: 30px;
+    margin-top:20px;
+    padding-top: 20px;
 }
 
 
@@ -252,7 +261,7 @@ a {
 }
 
 .carousel-align {
-    margin-top: 30px;
+    padding-top: 30px;
 }
 
 
@@ -273,13 +282,13 @@ a {
 }
 
 .flag-spacing {
-    margin-right: 5px;
+    padding-right: 35px;
 }
 
 .closetour-space-color {
     font-size: 25px;
     color: #fff;
-    margin-left: 20px;
+    padding-left: 25px;
     -webkit-transition: 0.5s;
     -o-transition: 0.5s;
     transition: 0.5s;
@@ -339,5 +348,5 @@ a {
 }
 
 .icons-spacing {
-    margin-right: 10px;
+    padding-right: 10px;
 }
