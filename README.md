@@ -65,7 +65,9 @@ In Chrome Debugger I used the responsive method to resize the window to see how 
 
 **Automated**
 
-[HTML](https://validator.w3.org) [CSS](https://autoprefixer.github.io/) [CSS](https://jigsaw.w3.org/css-validator/)
+[HTML](https://validator.w3.org)<br>
+[CSS](https://autoprefixer.github.io/)<br>
+[CSS](https://jigsaw.w3.org/css-validator/)<br>
 
 
 **Manual Testing:**
@@ -103,7 +105,7 @@ When clicking on "Global Tour and Book Us" while the user is on the Landing Page
 
 This bug happens in Chrome and Firefox. 
 
-<b>Possible solutions:</b>
+**Possible solutions:**
 * Change the background-attachment to scroll. Side effects: The visual effects of the overall design on the website is affected. 
 * Disable scroll for the user on the single page. Side Effects: Poor UX.
 * Enable scroll on the modal and set Body padding-right to 0 and !Important. Side effects: The social icons on the footer is getting padding from the modals, making them move. Scrolling is enabled on the website behind the modal.
@@ -131,10 +133,10 @@ Others that are interested in this project can make a copy of their own by downl
 ## Credits
 **Research:**
 
-[Github](https://www.github.com)
-[Stackoverflow](https://stackoverflow.com)
-[CSS-Tricks](https://www.css-tricks.com)
-[Bootstrap](https://www.getbootstrap.com)
+[Github](https://www.github.com)<br>
+[Stackoverflow](https://stackoverflow.com)<br>
+[CSS-Tricks](https://www.css-tricks.com)<br>
+[Bootstrap](https://www.getbootstrap.com)<br>
 [W3](https://www.w3schools.com/)
 
 **Other:**
@@ -146,18 +148,18 @@ All content on this website is written by me.
 
 ### Media
 
-[Music](https://www.bensound.com/)
-[Images](https://unsplash.com/)
-[Background](https://stock.adobe.com/ie/)
+[Music](https://www.bensound.com/)<br>
+[Images](https://unsplash.com/)<br>
+[Background](https://stock.adobe.com/ie/)<br>
 [Gifs](https://giphy.com/)
 
 ### Acknowledgements
 
-[Animate CSS](https://daneden.github.io/animate.css/) 
-[Smooth-scroll](https://github.com/cferdinandi/smooth-scroll) 
-[Fontawesome](https://www.fontawesome.com) 
-[Flag-icons](https://cdnjs.com/libraries/flag-icon-css) 
-[Favicon](https://gauger.io/fonticon/) 
+[Animate CSS](https://daneden.github.io/animate.css/)<br> 
+[Smooth-scroll](https://github.com/cferdinandi/smooth-scroll)<br> 
+[Fontawesome](https://www.fontawesome.com)<br> 
+[Flag-icons](https://cdnjs.com/libraries/flag-icon-css)<br> 
+[Favicon](https://gauger.io/fonticon/)<br> 
 [Fonts](https://fonts.google.com/)
 
 ## Remarks
