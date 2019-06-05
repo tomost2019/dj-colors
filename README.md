@@ -65,9 +65,10 @@ In Chrome Debugger I used the responsive method to resize the window to see how 
 
 **Automated**
 
-[HTML](https://validator.w3.org)<br>
-[CSS](https://autoprefixer.github.io/)<br>
-[CSS](https://jigsaw.w3.org/css-validator/)<br>
+[HTML Validator W3](https://validator.w3.org)<br>
+[W3 CSS Validator](https://jigsaw.w3.org/css-validator/)<br>
+[Autiprefixer CSS Validator](https://autoprefixer.github.io/)
+
 
 
 **Manual Testing:**
@@ -127,7 +128,7 @@ I deployed this project by using Github Pages:
 
 *You can also fork the project to get a copy to your Github account. Deploy Github pages as above*
 
-**If you want to run the code localy. Download the project and run from your own environment.** 
+[Run Locally](https://help.github.com/en/articles/cloning-a-repository)
 
 
 ## Credits
@@ -137,7 +138,7 @@ I deployed this project by using Github Pages:
 [Stackoverflow](https://stackoverflow.com)<br>
 [CSS-Tricks](https://www.css-tricks.com)<br>
 [Bootstrap](https://www.getbootstrap.com)<br>
-[W3](https://www.w3schools.com/)
+[W3 Schools](https://www.w3schools.com/)
 
 **Other:**
 
