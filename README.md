@@ -78,20 +78,11 @@ Automated: Validated the HTML code at https://validator.w3.org/ and the CSS at h
     <li>The link "Visit Spotify for more" is working.</li>
 </ol>
 </li>
-<li>Abot Us
-<ol type="I">
-    <li>The photo album is working and the buttons for next and previous are working.</li>
-</ol>
+<li>Abot Us: he photo album is working and the buttons for next and previous are working.</li>
 </li>
-<li>Global Tour
-<ol type="I">
-    <li>Global Tour: The smooth popup is working and it is showing the iFrame video from youtube.</li>
-</ol>
+<li>Global Tour: The smooth popup is working and it is showing the iFrame video from youtube.</li>
 </li>
-<li>Book Us
-<ol type="I">
-    <li>The form is correctly aligned and the required inputs are working.</li>
-</ol>
+<li>Book Us: The form is correctly aligned and the required inputs are working. </li>
 </li>
 </ol>
 
