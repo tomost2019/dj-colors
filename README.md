@@ -7,8 +7,11 @@ With that in mind, I decided to go with a responsive modern mobile-first approac
 * [Mobile-First Approach](https://tomost2019.github.io/dj-colors/assets/wireframes/mobilefirst.png)
 * [Desktop](https://tomost2019.github.io/dj-colors/assets/wireframes/desktop.png)
 
-**Who is it for?**
-Anyone that has a passion for music. Does not matter if they know DJ Colors or not. The website is built to accommodate hardcore and new fans! With easy modern single page design. Responsive mobile-first approach. 
+#### Who is it for?
+Anyone that has a passion for music. Does not matter if they know DJ Colors or not. The website is built to accommodate hardcore and new fans! With easy modern single page design. Responsive mobile-first approach.
+
+#### How?
+By creating a modern responsive mobile-first single page design. With useful information and plenty of interaction possibilities with DJ Colors.
 
 
 ### User Stories
