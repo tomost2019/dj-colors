@@ -58,6 +58,17 @@ Automated: Validated the HTML code at https://validator.w3.org/ and the CSS at h
 
 Manual Testing:
 
+
+* Navbar
+<ol type="I">
+  <li>The Logo is working as a home button.</li>
+  <li>The navbar is highlighting each section meaning that the scrollspy is working. </li>
+  <li>The hamburger menu is working on mobile devices. The menu is collapsed after a link is clicked.</li>
+</ol>
+
+
+
+
 * Navbar I have tested all the links so that they go to each section in the single page with a smooth-scroll effect. 
 1.The Logo is working as a home button. 
 1.3. The navbar is highlighting each section meaning that the scrollspy is working. 
@@ -128,8 +139,3 @@ Fonts: https://fonts.google.com/
 ## Remarks
 This is my first milestone project and the group DJ Colors is not real. The stories and all the content, music and images has no connections. The project is a part of my portfolio. 
 
-<ol type="I">
-  <li>Coffee</li>
-  <li>Tea</li>
-  <li>Milk</li>
-</ol>
