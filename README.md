@@ -36,11 +36,9 @@ The footer acts the same way as the navbar. It is always following the user and 
 
 ### Features
 
-* The navbar is using scrollspy from Bootstrap so the website can track where the user is at the webpage and highlight that on the navbar.
-
+* Scrollspy is used from Bootstrap so the website can track where the user is at the webpage and highlight that on the navbar.
 * Modals from the Bootstrap framework is used to present useful information to the user.
 * The website is using "smooth-scroll" for a smooth visual pleasing UX. 
-
 * The heartbeat animations at the beginning are implemented using animate.css
 
 ### Future Development
