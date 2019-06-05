@@ -3,7 +3,7 @@ This website is for a well known DJ Group called Colors. They wanted a website t
 # UX - Single Page
 With that in mind, I decided to go with a responsive modern mobile-first approach, single page design. With a well-combined colour theme that reflected their image.
 
-Add wireframes
+<img src="assets/wireframes/index.html.png" alt="Wireframe">
 
 ### Navbar
 The navbar stays on top of the website at all times. Following the user, so they always can access the proper information they want. The design is responsive with soft animation to show the user which section they currently are at on the website.
