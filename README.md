@@ -88,7 +88,7 @@ Automated: Validated the HTML code at https://validator.w3.org/ and the CSS at h
 When clicking on "Global Tour and Book Us" while the user is on the Landing Page the background image seems to be moving when the modal is being activated. This is because the background image is fixed and that there is no scroll in modal mode. 
 
 <b>Possible solutions:</b>
-* Change the background image to background-attachment to scroll. Side effects: The visual effects of the overall design on the website is affected. 
+* Change the background-attachment to scroll. Side effects: The visual effects of the overall design on the website is affected. 
 * Disable scroll for the user on the single page. Side Effects: Poor UX.
 * Enable scroll on the modal and set Body padding-right to 0 and !Important. Side effects: The social icons on the footer is getting padding from the modals, making them move. Scrolling is enabled on the website behind the modal.
 * Adding custom javascript.
