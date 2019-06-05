@@ -176,6 +176,8 @@ a {
     transition: 0.5s;
 }
 
+/* Alignment for Global Tour and Book Us on the hamburger */
+
 @media (max-width: 767px) {
     .tourbookmodal {
         padding: .5rem .10rem;
