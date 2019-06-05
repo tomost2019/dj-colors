@@ -93,6 +93,7 @@ Manual Testing:
     <li>The form is correctly aligned and the required inputs are working.</li>
 </ol>
 </li>
+</ol>
 
 ### Known Bugs
 When clicking on "Global Tour and Book Us" while the user is on the Landing Page the background image seems to be moving when the modal is being activated. This is because the background image is fixed and that there is no scroll in modal mode. 
