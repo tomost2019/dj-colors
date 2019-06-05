@@ -211,7 +211,16 @@ a {
 
 }
 
+.visitspotify {
+    color: #fff;
+    transition: .3s;
+}
 
+.visitspotify:hover {
+    color: #000;
+    text-decoration: none;
+    transition: .3s;
+}
 
 .music-box {
     padding-top: 55px;
