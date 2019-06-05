@@ -58,7 +58,7 @@ Automated: Validated the HTML code at https://validator.w3.org/ and the CSS at h
 
 Manual Testing:
 
-
+<ol>
 <li>Navbar
 <ol type="I">
   <li>The Logo is working as a home button.</li>
@@ -66,22 +66,33 @@ Manual Testing:
   <li>The hamburger menu is working on mobile devices. The menu is collapsed after a link is clicked.</li>
 </ol>
 </li>
-
-
-
-* Navbar I have tested all the links so that they go to each section in the single page with a smooth-scroll effect. 
-1.The Logo is working as a home button. 
-1.3. The navbar is highlighting each section meaning that the scrollspy is working. 
-1.4. The hamburger menu is working on mobile devices. The menu is collapsed after a link is clicked.
-2. Landing Page 
-i. The arrow link is working. 
-ii The animations are working. 
-3.. Music 
-i. The HTML Audio controls are working.  
-ii. The link "Visit Spotify for more" is working.
-4. About Us The photo album is working and the buttons for next and previous are working.
-5. Global Tour: The smooth popup is working and it is showing the iFrame video from youtube.
-6. Book Us: The form is correctly aligned and the required inputs are working. 
+<li>Landing Page
+<ol type="I">
+    <li>The arrow link is working.</li>
+    <li>The animations are working.</li>
+</ol>
+</li>
+<li>Music
+<ol type="I">
+    <li>The HTML Audio controls are working.</li>
+    <li>The link "Visit Spotify for more" is working.</li>
+</ol>
+</li>
+<li>Abot Us
+<ol type="I">
+    <li>The photo album is working and the buttons for next and previous are working.</li>
+</ol>
+</li>
+<li>Global Tour
+<ol type="I">
+    <li>Global Tour: The smooth popup is working and it is showing the iFrame video from youtube.</li>
+</ol>
+</li>
+<li>Book Us
+<ol type="I">
+    <li>The form is correctly aligned and the required inputs are working.</li>
+</ol>
+</li>
 
 ### Known Bugs
 When clicking on "Global Tour and Book Us" while the user is on the Landing Page the background image seems to be moving when the modal is being activated. This is because the background image is fixed and that there is no scroll in modal mode. 
@@ -109,10 +120,10 @@ Others that are interested in this project can make a copy of their own by downl
 ## Credits
 Websites used for research:
 
-https://www.github.com
-https://stackoverflow.com
-https://www.css-tricks.com
-https://www.getbootstrap.com
+https://www.github.com<br>
+https://stackoverflow.com<br>
+https://www.css-tricks.com<br>
+https://www.getbootstrap.com<br>
 https://www.w3schools.com/
 
 Other:
@@ -124,16 +135,16 @@ All content on this website is written by me
 
 ### Media
 
-Music: https://www.bensound.com/
-Images: https://unsplash.com/ https://stock.adobe.com/ie/
+Music: https://www.bensound.com/<br>
+Images: https://unsplash.com/ https://stock.adobe.com/ie/<br>
 Gifs: https://giphy.com/
 ### Acknowledgements
 
-Animate CSS: https://daneden.github.io/animate.css/
-Smooth-scroll: https://github.com/cferdinandi/smooth-scroll
-Fontawesome: https://www.fontawesome.com
-Flag-icons: https://cdnjs.com/libraries/flag-icon-css
-Favicon: https://gauger.io/fonticon/
+Animate CSS: https://daneden.github.io/animate.css/<br>
+Smooth-scroll: https://github.com/cferdinandi/smooth-scroll<br>
+Fontawesome: https://www.fontawesome.com<br>
+Flag-icons: https://cdnjs.com/libraries/flag-icon-css<br>
+Favicon: https://gauger.io/fonticon/<br>
 Fonts: https://fonts.google.com/
 
 ## Remarks
