@@ -59,13 +59,13 @@ Automated: Validated the HTML code at https://validator.w3.org/ and the CSS at h
 Manual Testing:
 
 
-* Navbar
+<li>Navbar
 <ol type="I">
   <li>The Logo is working as a home button.</li>
   <li>The navbar is highlighting each section meaning that the scrollspy is working. </li>
   <li>The hamburger menu is working on mobile devices. The menu is collapsed after a link is clicked.</li>
 </ol>
-
+</li>
 
 
 
