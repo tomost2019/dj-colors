@@ -111,23 +111,23 @@ This bug happens in Chrome and Firefox.
 * Enable scroll on the modal and set Body padding-right to 0 and !Important. Side effects: The social icons on the footer is getting padding from the modals, making them move. Scrolling is enabled on the website behind the modal.
 * Adding custom javascript.
 
-Read more: https://stackoverflow.com/questions/32675849/screen-zooms-in-when-a-bootstrap-modal-is-opened-on-ios-9-safari
+[Read more](https://stackoverflow.com/questions/32675849/screen-zooms-in-when-a-bootstrap-modal-is-opened-on-ios-9-safari)
 
 ### Performance
 I optimized the images on the website for best performance. I measured the performance using the Chrome Debugger with network and the performance tab.
 
 ## Deployment
-<b>I deployed this project by:</b>
-<ol>
-<li>Create a GIT folder in C9 Online IDE by typing "Git init"</li>
-<li>Created the first version by adding files to "Git add"</li>
-<li>Commited with message by "Git commit -m"</li>
-<li>Create a repository on Github, named it and connected it to my git repository.</li>
-<li>Pushed the project by using "Git Push"</li>
-<li>Go to settings on Github and enable Github Pages and paste a link in the description.</li>
-</ol>
+I deployed this project by using Github Pages:
 
-Others that are interested in this project can make a copy of their own by downloading it or fork it on GitHub to make a copy to your own account. Import it to your IDE by using git clone https://github.com/tomost2019/dj-colors.git and run it. The code works without a proper IDE as well. Just open index.html.
+1. Log into Github
+2. Select the DJ-Colors repository
+3. Go to Settings > Github Pages
+4. Choose: Source > Master branch
+5. The Github page is now deployed. Retrive the link and paste it in the description.
+
+*You can also fork the project to get a copy to your Github account. Deploy Github pages as above*
+
+**If you want to run the code localy. Download the project and run from your own environment.** 
 
 
 ## Credits
