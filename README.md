@@ -69,7 +69,24 @@ I did some extensive testing of the website several times. I used Chrome Debugge
 
 In Chrome Debugger I used the responsive method to resize the window to see how everything looked. I also used it for checking how it would look on different mobile devices.
 
-**Automated**
+### Testing Client Stories
+
+#### Navbar 
+All fans can access information fast and the navbar is always on top.
+#### Music
+Fans can listen to music and continue to listen on Spotify through the link or footer.
+#### About Us
+New and old fans can see the latest photos from the events.
+#### Global Tour
+Quick and useful information when the fans need it.
+#### Book Us
+Potential customers can easily  book Dj Colors.
+#### Footer
+The footer is always at the bottom. Providing an easy way to interact on social media with DJ Colors.
+
+
+
+### Automated
 
 [HTML Validator W3](https://validator.w3.org)<br>
 [W3 CSS Validator](https://jigsaw.w3.org/css-validator/)<br>
@@ -77,7 +94,7 @@ In Chrome Debugger I used the responsive method to resize the window to see how 
 
 
 
-**Manual Testing:**
+### Manual Testing:
 
 <ol>
 <li>Navbar
