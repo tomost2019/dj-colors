@@ -56,7 +56,7 @@ In Chrome Debugger I used the responsive method to resize the window to see how 
 
 Automated: Validated the HTML code at https://validator.w3.org/ and the CSS at https://autoprefixer.github.io/. 
 
-Manual Testing:
+<b>Manual Testing:</b>
 
 <ol>
 <li>Navbar
@@ -98,7 +98,7 @@ Manual Testing:
 ### Known Bugs
 When clicking on "Global Tour and Book Us" while the user is on the Landing Page the background image seems to be moving when the modal is being activated. This is because the background image is fixed and that there is no scroll in modal mode. 
 
-Possible solutions:
+<b>Possible solutions:</b>
 * Change the background image to background-attachment: scroll; Side effects: The visual effects of the overall design on the website is affected. 
 * Disable scroll for the user on the single page. Side Effects: Poor UX.
 * Enable scroll on the modal and set Body padding-right to 0 and !Important. Side effects: The social icons on the footer is getting padding from the modals, making them move. Scrolling is enabled on the website behind the modal.
@@ -107,8 +107,8 @@ Possible solutions:
 Read more: https://stackoverflow.com/questions/32675849/screen-zooms-in-when-a-bootstrap-modal-is-opened-on-ios-9-safari
 
 ## Deployment
+Deployed this project by:
 <ol>
-<li> deployed this project by:</li>
 <li>Create a GIT folder in C9 Online IDE by typing "Git init"</li>
 <li>Created the first version by adding files to "Git add"</li>
 <li>Commited with message by "Git commit -m"</li>
@@ -121,7 +121,7 @@ Others that are interested in this project can make a copy of their own by downl
 
 
 ## Credits
-Websites used for research:
+Research:
 
 https://www.github.com<br>
 https://stackoverflow.com<br>
@@ -129,7 +129,7 @@ https://www.css-tricks.com<br>
 https://www.getbootstrap.com<br>
 https://www.w3schools.com/
 
-Other:
+<b>Other:</b>
 
 Code Institute
 
