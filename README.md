@@ -59,10 +59,18 @@ Automated: Validated the HTML code at https://validator.w3.org/ and the CSS at h
 
 Manual Testing:
 
-1. Navbar: I have tested all the links so that they go to each section in the single page with a smooth-scroll effect. The Logo is working as a home button. That the content is correctly aligned. The navbar is highlighting each section meaning that the scrollspy is working. The hamburger menu is working on mobile devices. The menu is collapsed after a link is clicked.
-2. Landing Page: The arrow link is working. The animations are working. 
-3. Music: The HTML Audio controls are working and the link "Visit Spotify for more" is working.
-4. About Us: The photo album is working and the buttons for next and previous are working.
+1. Navbar
+i. I have tested all the links so that they go to each section in the single page with a smooth-scroll effect. 
+ii. The Logo is working as a home button. 
+iii. The navbar is highlighting each section meaning that the scrollspy is working. 
+iiii. The hamburger menu is working on mobile devices. The menu is collapsed after a link is clicked.
+2. Landing Page 
+i. The arrow link is working. 
+ii The animations are working. 
+3.. Music 
+i. The HTML Audio controls are working.  
+ii. The link "Visit Spotify for more" is working.
+4. About Us The photo album is working and the buttons for next and previous are working.
 5. Global Tour: The smooth popup is working and it is showing the iFrame video from youtube.
 6. Book Us: The form is correctly aligned and the required inputs are working. 
 
@@ -86,7 +94,7 @@ I deployed this project by:
 5. Pushed the project by using "Git Push"
 6. Go to settings on Github and enable Github Pages and paste a link in the description.
 
-Others that are interested in this project can make a copy of their own by downloading it or fork it on GitHub to make a copy to your own account. Import it to your IDE and run it. The code works without a proper IDE as well. Just open index.html.
+Others that are interested in this project can make a copy of their own by downloading it or fork it on GitHub to make a copy to your own account. Import it to your IDE by using git clone https://github.com/tomost2019/dj-colors.git and run it. The code works without a proper IDE as well. Just open index.html.
 
 
 ## Credits
