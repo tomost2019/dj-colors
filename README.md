@@ -39,7 +39,6 @@ The footer acts the same way as the navbar. It is always following the user and 
 * The navbar is using scrollspy from Bootstrap so the website can track where the user is at the webpage and highlight that on the navbar.
 
 * Modals from the Bootstrap framework is used to present useful information to the user.
-
 * The website is using "smooth-scroll" for a smooth visual pleasing UX. 
 
 * The heartbeat animations at the beginning are implemented using animate.css
@@ -59,8 +58,8 @@ Automated: Validated the HTML code at https://validator.w3.org/ and the CSS at h
 
 Manual Testing:
 
-1. Navbar I have tested all the links so that they go to each section in the single page with a smooth-scroll effect. 
-1.2. The Logo is working as a home button. 
+* Navbar I have tested all the links so that they go to each section in the single page with a smooth-scroll effect. 
+1.The Logo is working as a home button. 
 1.3. The navbar is highlighting each section meaning that the scrollspy is working. 
 1.4. The hamburger menu is working on mobile devices. The menu is collapsed after a link is clicked.
 2. Landing Page 
@@ -128,3 +127,9 @@ Fonts: https://fonts.google.com/
 
 ## Remarks
 This is my first milestone project and the group DJ Colors is not real. The stories and all the content, music and images has no connections. The project is a part of my portfolio. 
+
+<ol type="I">
+  <li>Coffee</li>
+  <li>Tea</li>
+  <li>Milk</li>
+</ol>
