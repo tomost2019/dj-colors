@@ -3,7 +3,24 @@ This website is for a well known DJ Group called Colors. They wanted a website t
 # UX - Single Page
 With that in mind, I decided to go with a responsive modern mobile-first approach, single page design. With a well-combined colour theme that reflected their image.
 
-<img src="assets/wireframes/index.html.png" alt="Wireframe">
+### Wireframes
+*[Mobile First Approach](https://tomost2019.github.io/dj-colors/assets/wireframes/mobilefirst.png)
+*[Desktop](https://tomost2019.github.io/dj-colors/assets/wireframes/desktop.png)
+
+
+
+
+### User Stories
+
+
+
+## Technologies Used
+* HTML
+* CSS
+* Javascript 
+* Bootstrap 4
+
+### Features
 
 ### Navbar
 The navbar stays on top of the website at all times. Following the user, so they always can access the proper information they want. The design is responsive with soft animation to show the user which section they currently are at on the website.
@@ -25,16 +42,7 @@ The User loves DJ Colors and really want to be able to book them for their own e
 ### Footer
 The footer acts the same way as the navbar. It is always following the user and it has smooth animations. It is basically a navbar for social media that makes it easy for the user to interact with DJ Colors.
 
-
-
-
-## Technologies Used
-* HTML
-* CSS
-* Javascript 
-* Bootstrap 4
-
-### Features
+### Implemented Features
 
 * Scrollspy is used from Bootstrap so the website can track where the user is at the webpage and highlight that on the navbar.
 * Modals from the Bootstrap framework is used to present useful information to the user.
@@ -52,12 +60,16 @@ I did some extensive testing of the website several times. I used Chrome Debugge
 
 In Chrome Debugger I used the responsive method to resize the window to see how everything looked. I also used it for checking how it would look on different mobile devices.
 
-<b>Automated</b>
+**Automated**
 
-HTML: https://validator.w3.org/<br>
-CSS: https://autoprefixer.github.io/ and https://jigsaw.w3.org/css-validator/
+[HTML](https://validator.w3.org)
+[CSS](https://autoprefixer.github.io/ and https://jigsaw.w3.org/css-validator/)
 
-<b>Manual Testing:</b>
+
+**Manual Testing:**
+
+1)Navbar
+2)Landing Page
 
 <ol>
 <li>Navbar
@@ -118,15 +130,15 @@ Others that are interested in this project can make a copy of their own by downl
 
 
 ## Credits
-<b>Research:</b>
+**Research:**
 
-https://www.github.com<br>
-https://stackoverflow.com<br>
-https://www.css-tricks.com<br>
-https://www.getbootstrap.com<br>
-https://www.w3schools.com/
+[Github](https://www.github.com)
+[Stackoverflow](https://stackoverflow.com)
+[CSS-Tricks](https://www.css-tricks.com)
+[Bootstrap](https://www.getbootstrap.com)
+[W3](https://www.w3schools.com/)
 
-<b>Other:</b>
+**Other:**
 
 Code Institute
 
@@ -135,17 +147,17 @@ All content on this website is written by me.
 
 ### Media
 
-Music: https://www.bensound.com/<br>
-Images: https://unsplash.com/ https://stock.adobe.com/ie/<br>
-Gifs: https://giphy.com/
+[Music](https://www.bensound.com/)
+[Images](https://unsplash.com/ https://stock.adobe.com/ie/)
+[Gifs](https://giphy.com/)
 ### Acknowledgements
 
-Animate CSS: https://daneden.github.io/animate.css/<br>
-Smooth-scroll: https://github.com/cferdinandi/smooth-scroll<br>
-Fontawesome: https://www.fontawesome.com<br>
-Flag-icons: https://cdnjs.com/libraries/flag-icon-css<br>
-Favicon: https://gauger.io/fonticon/<br>
-Fonts: https://fonts.google.com/
+[Animate CSS](https://daneden.github.io/animate.css/)
+[Smooth-scroll](https://github.com/cferdinandi/smooth-scroll)
+[Fontawesome](https://www.fontawesome.com)
+[Flag-icons](https://cdnjs.com/libraries/flag-icon-css)
+[Favicon](https://gauger.io/fonticon/)
+[Fonts](https://fonts.google.com/)
 
 ## Remarks
 This is my first milestone project and the group DJ Colors is not real. The stories and all the content, music and images has no connections. The project is a part of my portfolio. 
