@@ -1,6 +1,6 @@
 # DJ Colors
 This website is for a well known DJ Group called Colors. They wanted a website that reflected their brand image, modern design with useful information.
-#UX - Single Page
+# UX - Single Page
 With that in mind, I decided to go with a responsive modern mobile-first approach, single page design. With a well-combined colour theme that reflected their image.
 
 Add wireframes
