@@ -99,7 +99,7 @@ Manual Testing:
 When clicking on "Global Tour and Book Us" while the user is on the Landing Page the background image seems to be moving when the modal is being activated. This is because the background image is fixed and that there is no scroll in modal mode. 
 
 Possible solutions:
-* Change the background image to background-attachment:scroll; Side effects: The visual effects of the overall design on the website is affected. 
+* Change the background image to background-attachment: scroll; Side effects: The visual effects of the overall design on the website is affected. 
 * Disable scroll for the user on the single page. Side Effects: Poor UX.
 * Enable scroll on the modal and set Body padding-right to 0 and !Important. Side effects: The social icons on the footer is getting padding from the modals, making them move. Scrolling is enabled on the website behind the modal.
 * Adding custom javascript.
@@ -107,13 +107,15 @@ Possible solutions:
 Read more: https://stackoverflow.com/questions/32675849/screen-zooms-in-when-a-bootstrap-modal-is-opened-on-ios-9-safari
 
 ## Deployment
-I deployed this project by:
-1. Create a GIT folder in C9 Online IDE by typing "Git init"
-2. Created the first version by adding files to "Git add"
-3. Commited with message by "Git commit -m"
-4. Create a repository on Github, named it and connected it to my git repository.
-5. Pushed the project by using "Git Push"
-6. Go to settings on Github and enable Github Pages and paste a link in the description.
+<ol>
+<li> deployed this project by:</li>
+<li>Create a GIT folder in C9 Online IDE by typing "Git init"</li>
+<li>Created the first version by adding files to "Git add"</li>
+<li>Commited with message by "Git commit -m"</li>
+<li>Create a repository on Github, named it and connected it to my git repository.</li>
+<li>Pushed the project by using "Git Push"</li>
+<li>Go to settings on Github and enable Github Pages and paste a link in the description.</li>
+</ol>
 
 Others that are interested in this project can make a copy of their own by downloading it or fork it on GitHub to make a copy to your own account. Import it to your IDE by using git clone https://github.com/tomost2019/dj-colors.git and run it. The code works without a proper IDE as well. Just open index.html.
 
