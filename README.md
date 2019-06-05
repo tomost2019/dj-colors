@@ -76,7 +76,7 @@ Automated: Validated the HTML code at https://validator.w3.org/ and the CSS at h
     <li>The link "Visit Spotify for more" is working.</li>
 </ol>
 </li>
-<li>Abot Us: he photo album is working and the buttons for next and previous are working.</li>
+<li>Abot Us: The photo album is working and the buttons for next and previous are working.</li>
 </li>
 <li>Global Tour: The smooth popup is working and it is showing the iFrame video from youtube.</li>
 </li>
