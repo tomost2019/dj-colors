@@ -65,8 +65,8 @@ Manual Testing:
    - The navbar is highlighting each section meaning that the scrollspy is working. 
     - The hamburger menu is working on mobile devices. The menu is collapsed after a link is clicked.
 2. Landing Page 
- i. The arrow link is working. 
-  ii The animations are working. 
+ i.The arrow link is working. 
+  ii.The animations are working. 
 3. Music 
  i. The HTML Audio controls are working.  
    ii. The link "Visit Spotify for more" is working.
