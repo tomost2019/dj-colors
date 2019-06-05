@@ -60,10 +60,10 @@ Automated: Validated the HTML code at https://validator.w3.org/ and the CSS at h
 Manual Testing:
 
 1. Navbar
- i. I have tested all the links so that they go to each section in the single page with a smooth-scroll effect. 
-  ii. The Logo is working as a home button. 
-   iii. The navbar is highlighting each section meaning that the scrollspy is working. 
-    iiii. The hamburger menu is working on mobile devices. The menu is collapsed after a link is clicked.
+ - I have tested all the links so that they go to each section in the single page with a smooth-scroll effect. 
+  - The Logo is working as a home button. 
+   - The navbar is highlighting each section meaning that the scrollspy is working. 
+    - The hamburger menu is working on mobile devices. The menu is collapsed after a link is clicked.
 2. Landing Page 
  i. The arrow link is working. 
   ii The animations are working. 
