@@ -15,34 +15,34 @@ With that in mind, I decided to go with a responsive modern mobile-first approac
 
 
 ## Technologies Used
-* HTML - Skeleton of the website
-* CSS - Custom styling
+* HTML - Skeleton of the website.
+* CSS - Custom styling.
 * Javascript - Smooth-scroll and scrollspy.
 * Bootstrap 4 Framework - Layout and responsiveness.
-* Git - Version Control
-* Github - Deployment
-* C9 - Online IDE
+* Git - Version Control.
+* Github - Deployment.
+* C9 - Online IDE.
 
 ### Features
 
-### Navbar
+#### Navbar
 The navbar stays on top of the website at all times. Following the user, so they always can access the proper information they want. The design is responsive with soft animation to show the user which section they currently are at on the website.
 
 On mobile devices, the navbar turns into a "hamburger" but with the same useful navigation and soft animations. There is a heartbeat animation effect on the collapse icon showing that the user can interact with it. This occurs at the beginning when the user is landing on the website.
 
 The hamburger is closed when a link is clicked so that the content is always in front of the user.
 
-### Landing Page
+#### Landing Page
 The user lands on a visually pleasing page with a slogan that is meant to wake curiosity to explore more. With a big arrow to point out that the user can continue exploring further down or go directly to DJ Colors social media. The social icons on the footer have a heartbeat animation effect to point it out at the beginning.
-### Music
+#### Music
 DJ Colors are well known worldwide and this section is just a handful of their top singles. It is meant for users to easily being able to listen and to decide if they want to continue on to their Spotify page.
-### About Us
+#### About Us
 This section is a short story of how it all began. With a big picture album that will encourage the user to explore more about DJ Colors on their social media.
-### Global Tour
+#### Global Tour
 Global Tour is a smooth popup that immediately presents the Global Tour information that the user wants. It is also showing a clip from youtube from their previous events. Promoting how exciting it is! There is a big "X" showing how the user can exit from the popup.
-### Book Us
+#### Book Us
 The User loves DJ Colors and really want to be able to book them for their own event! That is easily made by clicking "Book Us" that will present itself with a smooth popup and a form with just enough information that DJ Colors needs. A big "X" marks how the user can exit the popup.
-### Footer
+#### Footer
 The footer acts the same way as the navbar. It is always following the user and it has smooth animations. It is basically a navbar for social media that makes it easy for the user to interact with DJ Colors.
 
 ### Implemented Features
