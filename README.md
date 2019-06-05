@@ -60,16 +60,16 @@ Automated: Validated the HTML code at https://validator.w3.org/ and the CSS at h
 Manual Testing:
 
 1. Navbar
-i. I have tested all the links so that they go to each section in the single page with a smooth-scroll effect. 
-ii. The Logo is working as a home button. 
-iii. The navbar is highlighting each section meaning that the scrollspy is working. 
-iiii. The hamburger menu is working on mobile devices. The menu is collapsed after a link is clicked.
+ i. I have tested all the links so that they go to each section in the single page with a smooth-scroll effect. 
+  ii. The Logo is working as a home button. 
+   iii. The navbar is highlighting each section meaning that the scrollspy is working. 
+    iiii. The hamburger menu is working on mobile devices. The menu is collapsed after a link is clicked.
 2. Landing Page 
-i. The arrow link is working. 
-ii The animations are working. 
-3.. Music 
-i. The HTML Audio controls are working.  
-ii. The link "Visit Spotify for more" is working.
+ i. The arrow link is working. 
+  ii The animations are working. 
+3. Music 
+ i. The HTML Audio controls are working.  
+   ii. The link "Visit Spotify for more" is working.
 4. About Us The photo album is working and the buttons for next and previous are working.
 5. Global Tour: The smooth popup is working and it is showing the iFrame video from youtube.
 6. Book Us: The form is correctly aligned and the required inputs are working. 
