@@ -84,6 +84,9 @@ Automated: Validated the HTML code at https://validator.w3.org/ and the CSS at h
 </li>
 </ol>
 
+## Performance
+I optimized the images on the website for best performance. I measured the performance using the Chrome Debugger with network and the performance tab.
+
 ### Known Bugs
 When clicking on "Global Tour and Book Us" while the user is on the Landing Page the background image seems to be moving when the modal is being activated. This is because the background image is fixed and that there is no scroll in modal mode. 
 
