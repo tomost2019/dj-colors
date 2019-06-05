@@ -99,7 +99,7 @@ Read more: https://stackoverflow.com/questions/32675849/screen-zooms-in-when-a-b
 I optimized the images on the website for best performance. I measured the performance using the Chrome Debugger with network and the performance tab.
 
 ## Deployment
-<b>Deployed this project by:</b>
+<b>I deployed this project by:</b>
 <ol>
 <li>Create a GIT folder in C9 Online IDE by typing "Git init"</li>
 <li>Created the first version by adding files to "Git add"</li>
