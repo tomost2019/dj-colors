@@ -188,6 +188,6 @@ All content on this website is written by me.
 [Favicon](https://gauger.io/fonticon/)<br> 
 [Fonts](https://fonts.google.com/)
 
-## Remarks
+## Disclaimer
 This is my first milestone project and the group DJ Colors is not real. The stories and all the content, music and images has no connections. The project is a part of my portfolio. 
 
